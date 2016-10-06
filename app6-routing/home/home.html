@@ -1,0 +1,4 @@
+<h1>{{home}}</h1>
+<div ng-repeat ="pet in pets">
+    <a ui-sref ='details({id: pet.id})'> <img class=pet-image src="{{pet.image}}"/> </a>
+</div>
